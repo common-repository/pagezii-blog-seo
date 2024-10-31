@@ -1,0 +1,38 @@
+/* st0 = middle
+ * st1 = back
+ * st2 = front
+ * rank1 = low, rank2 = medium, rank3 = high
+ */
+
+/* rank 1 milestones */
+.rank1 .st0, .rank1 text {
+	fill: #D95847;
+}
+.rank1 .st1 {
+	fill: #D5847A;
+}
+.rank1 .st2 {
+	fill: #E38C81;
+}
+
+/* rank 2 milestones */
+.rank2 .st0, .rank2 text {
+	fill: #EDA54C;
+}
+.rank2 .st1 {
+	fill: #E2B37B;
+}
+.rank2 .st2 {
+	fill: #EDBB7F;
+}
+
+/* rank 3 milestones */
+.rank3 .st0, .rank3 text {
+	fill: #55AD77;
+}
+.rank3 .st1 {
+	fill: #71B78D;
+}
+.rank3 .st2 {
+	fill: #7AC598;
+}

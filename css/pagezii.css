@@ -1,0 +1,98 @@
+.toplevel_page_pzsmb-dashboard .wp-menu-image img, .toplevel_page_pzseo-agency .wp-menu-image img {
+    height: 22px;
+    padding-top: 6px !important;
+}
+
+#pagezii-snapshot-form td input, #pagezii-snapshot-form td textarea {
+    width: 27em;
+}
+
+#pagezii-snapshot-form tr.notoppadding>* {
+    padding-top:5px;
+}
+
+#pagezii-snapshot-form td input[type=checkbox], #pagezii-snapshot-form td input[type=radio] {
+    width: auto;
+}
+
+#pagezii-snapshot-form #report-types tr > td {
+    /*width: 22em;*/
+}
+
+#pagezii-snapshot-form #redirect_to_page:checked ~ #thankyou_message {
+    opacity: 0.3;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+#pagezii-snapshot-form .text-muted {
+    color: #8C8E90;
+}
+
+#pagezii-display-form .user-error {
+    color: #D95847;
+    margin-bottom: 2px;
+}
+
+#pagezii-snapshot-email-codes {
+    width: 100%;
+    max-width: 400px;
+    display: inline-flex;
+}
+#pagezii-snapshot-email-codes div {
+    padding: 5px 10px;
+    width: 50%;
+    display: inline-block;
+}
+.pagezii-snapshot-link {
+    color: #8C8E90;
+    font-size: 0.7em;
+}
+.pagezii-snapshot-link a, .pagezii-snapshot-link a:hover, .pagezii-snapshot-link a:active, .pagezii-snapshot-link a:visited {
+    color: #8C8E90;
+    text-decoration: none;
+}
+
+#run-pulse-table tr > *:last-child {
+    max-width: 80px;
+    width: 80px;
+}
+
+#run-pulse-table i.fa {
+    cursor: pointer;
+}
+
+#pz-posts-table tr > *:first-child,  {
+    min-width: 170px;
+    width: 170px;
+}
+@media only screen and (min-width: 1100px) {
+    #pz-posts-table tr > *:first-child {
+        min-width: 340px;
+        width: 340px;
+    }
+}
+.pz-dashboard-posts tr > *:nth-child(5) {
+    min-width: 110px;
+    width: 110px;
+}
+
+.tagcloud {
+    padding: 15px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 700px;
+}
+.tagcloud span {
+    padding: 6px;
+    display: inline-block;
+}
+
+.pagezii-report-body {
+    padding: 15px 16px;
+}
+
+.pz-table-row-delete {
+    float: right;
+    font-size: 18px;
+}
